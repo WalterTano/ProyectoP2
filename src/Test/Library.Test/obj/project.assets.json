@@ -1253,6 +1253,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NUnit": "3.12.0"
+        },
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
       }
     }
   },
@@ -4942,10 +4955,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../../Library/Library.csproj",
+      "msbuildProject": "../../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Library >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
@@ -4953,19 +4972,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TanoW\\.nuget\\packages\\": {}
+    "/Users/ezequielgomez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TanoW\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\Programación II\\Proyecto\\src\\Test\\Library.Test\\Library.Test.csproj",
+      "projectUniqueName": "/Users/ezequielgomez/Workspace/UCU/p2/ProyectoP2/src/Test/Library.Test/Library.Test.csproj",
       "projectName": "Library.Test",
-      "projectPath": "C:\\Users\\TanoW\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\Programación II\\Proyecto\\src\\Test\\Library.Test\\Library.Test.csproj",
-      "packagesPath": "C:\\Users\\TanoW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TanoW\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\Programación II\\Proyecto\\src\\Test\\Library.Test\\obj\\",
+      "projectPath": "/Users/ezequielgomez/Workspace/UCU/p2/ProyectoP2/src/Test/Library.Test/Library.Test.csproj",
+      "packagesPath": "/Users/ezequielgomez/.nuget/packages/",
+      "outputPath": "/Users/ezequielgomez/Workspace/UCU/p2/ProyectoP2/src/Test/Library.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TanoW\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/ezequielgomez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -4976,7 +4995,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/ezequielgomez/Workspace/UCU/p2/ProyectoP2/src/Library/Library.csproj": {
+              "projectPath": "/Users/ezequielgomez/Workspace/UCU/p2/ProyectoP2/src/Library/Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5021,7 +5044,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

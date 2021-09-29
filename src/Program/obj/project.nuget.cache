@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Bzih4hyn8E2Rb7fzjxYJZ8fglmhzfOIKkeqqtT9Fx7D3I37oe5D3NtOOrpJDuCdbIj2e/9XMJOdtTLO8s5Ragg==",
+  "dgSpecHash": "TKJ6GtJ7hXAv6Bn/2AwRPMnrxEfxzZ9azfZK2Ku8cIKu8qz9nDZv30Awh40JIVKt62VZZzKwBMIkzrn0d9CPxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TanoW\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\Programación II\\Proyecto\\src\\Program\\Program.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/ezequielgomez/Workspace/UCU/p2/ProyectoP2/src/Program/Program.csproj",
+  "expectedPackageFiles": [
+    "/Users/ezequielgomez/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/ezequielgomez/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/ezequielgomez/.nuget/packages/nunit/3.12.0/nunit.3.12.0.nupkg.sha512"
+  ],
   "logs": []
 }
